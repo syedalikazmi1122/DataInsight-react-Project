@@ -9,24 +9,24 @@ export default function Footer() {
       navigate("/Contact");
     }
   return (
-    <div className=" flex  space-x-40 justify-center   bg-blue-300">
-      <div className="  pb-10 grid items-center justify-center">
-        <p className="   w-64 text-blue-600 pt-4">
+    <div className=" flex space-x-10 sm:space-x-40 sm:justify-center   bg-blue-300">
+      <div className="  pb-10 sm:grid sm:items-center sm:justify-center">
+        <p className=" text-xs  pl-1 sm:w-64 text-blue-600 pt-4">
           We try our best to provide users with a comfortable user experience
           but if you face any issue ......
         </p>
-        <button className="border w-36 border-solid   font-bold text-blue-800 border-white transform transition duration-500 ease-in-out hover:scale-105 hover-arrow"
+        <button className="border w-24 sm:w-36 border-solid  font-bold text-blue-800 border-white transform transition duration-500 ease-in-out hover:scale-105 hover-arrow"
         onClick={navigateContactus}
         >
           Contact us <i class="fas fa-arrow-right"></i>
         </button>
       </div>
       <div className="border border-white"></div>
-      <div className=" pb-10 grid items-center justify-center">
-        <p className="  w-64 text-blue-600 pt-4 justify-center">
+      <div className=" pb-10 sm:grid sm:items-center sm:justify-center">
+        <p className=" text-xs  sm:w-64 text-blue-600 pt-4 justify-center">
           If you are interested to know more about our work ,our mission then  do visit..
         </p>
-        <button className="border w-36 border-solid   font-bold text-blue-800 border-white transform transition duration-500 ease-in-out hover:scale-105 hover-arrow"
+        <button className="border w-24 sm:w-36 border-solid   font-bold text-blue-800 border-white transform transition duration-500 ease-in-out hover:scale-105 hover-arrow"
         onClick={navigateAboutus}>
           About us <i class="fas fa-arrow-right"></i>
         </button>
